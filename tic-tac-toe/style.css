@@ -9,6 +9,7 @@ hr {
   border-width: 5px;
   width: 5%;
   text-align: center;
+  margin: 20px;
 }
 h1 {
   color: #66BFBF;
@@ -24,13 +25,14 @@ button {
 }
 
 td {
-  border:  2px solid #10375c;
+  border:  2px solid #0a5c92;
   height:  100px;
   width:  100px;
   text-align:  center;
   vertical-align:  middle;
   font-family:  "Comic Sans MS", cursive, sans-serif;
   font-size:  70px;
+  color: #442727;
   cursor: pointer;
 }
 
@@ -85,7 +87,7 @@ table tr td:last-child {
   padding-bottom: 50px;
   text-align: center;
   border-radius: 5px;
-  color: #363062;
+  color: #1a4e46;
   font-size: 2em; 
 }
 
@@ -102,3 +104,7 @@ table tr td:last-child {
   margin-left: 10px;
 }
 
+button {
+  margin-left: 2rem;
+  text-decoration: solid;
+}
