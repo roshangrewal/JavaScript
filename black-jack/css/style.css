@@ -24,7 +24,6 @@ header{
     padding: 10px;
 }
 
-
 .title{
     font-size: 40px;
     display: inline-block;
@@ -55,7 +54,7 @@ header{
     position: relative;
     width: 350px;
     color: red;
-    /*border: 1px solid red*/
+    /* border: 1px solid red; */
     margin: 10px auto;
 }
 
@@ -75,7 +74,6 @@ header{
     margin: 20px auto;
     width: 130px;
     text-align: center;
-
     -moz-transition: all .1s ease;
     transition: all .1s ease;
 }
@@ -242,9 +240,11 @@ footer p{
     padding: 10px 10px 10px 10px;
 }
 
+/* .footer-img {
+    padding: 10px 10px 10px 10px;
+} */
+
 /*#theBackImg {
     transform: rotate(90deg);
 }*/
-
-
 
