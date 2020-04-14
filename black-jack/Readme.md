@@ -1,6 +1,7 @@
-## Game highlights | [Play Here] (http://roshangrewal.com/blackjack/)
+## Game highlights
 
-* [How To Play](https://www.youtube.com/watch?v=9oEn7gyLSCE)
+* [Play Here] (http://roshangrewal.com/blackjack)
+* [Watch-How To Play](https://www.youtube.com/watch?v=9oEn7gyLSCE)
 
 * Ace as a special card is avalueted as "1" or "11" depending on player cards at Hand. When a player draws an Ace and the score exceeds 21, Ace value changes to 1.
 * The Card Deck is generated and then shuffled twice before the start of the game.
