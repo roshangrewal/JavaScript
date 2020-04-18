@@ -2,7 +2,9 @@ html {
     position: relative;
     min-height: 100%;
 }
-
+*, ::after, ::before {
+    box-sizing: initial !important;
+}
 body {
     
     /* The image used */
@@ -16,6 +18,40 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* 
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn:focus, .btn:hover {
+    text-decoration: none;
+}
+
+.btn-success:hover {
+    color: #fff;
+    background-color: #218838;
+    border-color: #1e7e34;
+} */
 
 header{
     color: yellow;
@@ -77,7 +113,10 @@ header{
     -moz-transition: all .1s ease;
     transition: all .1s ease;
 }
-
+a:hover {
+    color: rgba(255,255,255,1) !important;
+    text-decoration: none !important; 
+}
 .console a:active {
     -moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
     box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
@@ -237,7 +276,13 @@ footer{
 }
 
 footer p{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 10px 20px 10px;
+    display: flex;
+    align-items: center;
+}
+
+footer p img.footer-img {
+    padding-left: 15px;
 }
 
 /* .footer-img {
