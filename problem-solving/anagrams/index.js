@@ -1,3 +1,4 @@
+/** Solution 1: 
 function anagrams(stringA, stringB) {
     const aCharMap = createCharMap(stringA);
     const bCharMap = createCharMap(stringB);
@@ -15,7 +16,7 @@ function anagrams(stringA, stringB) {
     return true;
 
 }
-
+// Helper function for Solution 1:
 function createCharMap(str) {
     const charMap = {};
 
@@ -23,7 +24,20 @@ function createCharMap(str) {
         charMap[char] = charMap[char] + 1 || 1;
     }
     return charMap;
+} 
+*/
+
+
+// Solution 2:
+function anagrams(stringA, stringB) {
+    return cleanString(stringA) === cleanString(stringB);
 }
+
+//Helper Function for Solution 2
+function cleanString(str) {
+    return str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
+}
+
 
 console.log(anagrams('rail safety', 'fairy tales'));
 console.log(anagrams('RAIL! SAFETY!', 'fairy tales'));
